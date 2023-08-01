@@ -16,13 +16,12 @@ https://api.postman.com/collections/1844288-143eb923-423f-4c91-a198-fe6e56d20e35
 
 ## How to run this project
 - Clone This project
-- open cloned project in vs code
+- open the cloned project in vs code
 - Type npm install in Terminal and Hit Enter
-- Then Hit the follwing command in terminal
+- Then Hit the following command in terminal
 
 ```bash
  npm test
-  
 ```
 ## Tools and Tech
 - JavaScript
@@ -31,15 +30,15 @@ https://api.postman.com/collections/1844288-143eb923-423f-4c91-a198-fe6e56d20e35
 - Axios
 - Mocha Awsome report
 
-## Test Cases Covered:
+## Test Cases Covered
 1. Check that the user can not log in with invalid credentials
 2. Check that the user can successfully log in with valid credentials
 3. Check that user1/customer1 creation is not possible with an invalid phone number
 4. Check that user1/customer1 can be created with valid credentials
 5. Check that user2/customer2 can be created with valid credentials
-6. Check that agent creation is not possible with invalid phone number
+6. Check that agent creation is not possible with an invalid phone number
 7. Check that agent can be created with valid credentials
-8. Check that it is not possible to deposit money from the system account to the agent account with wrong agent number
+8. Check that it is not possible to deposit money from the system account to the agent account with the wrong agent number
 9. Check that it is possible to do the successful deposit of money from the system account to the agent account
 10. Check that it is not possible to deposit money from the agent account to the wrong customer 1 account
 11. Check that it is possible to successfully deposit money from the agent account to the correct customer 1 account
